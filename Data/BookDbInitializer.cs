@@ -36,7 +36,19 @@ namespace My_Book.Data
                     {
                         Title = "The Beautiful Me",
                         Author = "Akans Isioma",
-                        Genre = "Financial",
+                        Genre = "Romance",
+                        CoverUrl = "www.IsiomaAkans.Com.Successful",
+                        Rate = 5,
+                        IsRead = true,
+                        DateAdded = DateTime.Now.AddDays(-5),
+                        DateRead = DateTime.Now
+
+                    },
+                    new Book()
+                    {
+                        Title = "Beauty and the beast",
+                        Author = "Akans Isioma",
+                        Genre = "Romance",
                         CoverUrl = "www.IsiomaAkans.Com.Successful",
                         Rate = 5,
                         IsRead = true,
